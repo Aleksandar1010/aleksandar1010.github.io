@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32616.157
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Homework", "Homework", "{B7F6407D-1A72-4EED-A74C-D547FAF3453A}"
+	ProjectSection(SolutionItems) = preProject
+		index.html = index.html
+		contactstyle.css = contactstyle.css
+		aboutstyle.css = aboutstyle.css
+		contact.html = contact.html
+		about.html = about.html
+		style.css = style.css
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "images", "images", "{476694D9-5E52-4785-90DA-BF2D01303954}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "font", "font", "{B1B5DB24-C056-4274-B573-85E3EBFE739E}"
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{476694D9-5E52-4785-90DA-BF2D01303954} = {B7F6407D-1A72-4EED-A74C-D547FAF3453A}
+		{B1B5DB24-C056-4274-B573-85E3EBFE739E} = {B7F6407D-1A72-4EED-A74C-D547FAF3453A}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {99859595-EA9D-42F4-A050-9CC2E3392715}
+	EndGlobalSection
+EndGlobal

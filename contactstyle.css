@@ -1,0 +1,238 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:ital,wght@0,100;0,400;0,700;0,900;1,100&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+/* navbar styling */
+.navbar ul {
+    list-style: none;
+    background-color: #4F4A41;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.navbar li {
+    display: inline-block;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #ffffff;
+    width: 100px;
+    display: block;
+    padding: 25px 20px;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+.active {
+    background-color: #88BDBC;
+}
+
+.navbar a:hover {
+    background-color: #88BDBC;
+}
+
+
+
+/*----contact me------*/
+body,
+input,
+textarea {
+    font-family: Roboto, sans-serif;
+    text-align: center;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    min-height: 90vh;
+    padding: 2rem;
+    background-color: #dbd9d5;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form {
+    width: 100%;
+    max-width: 1020px;
+    height: 500px;
+    background-color: #fff;
+    box-shadow: 0 0 10px 2px;
+    z-index: 1000;
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.contact-form {
+    background-color: #88BDBC;
+    position: relative;
+}
+
+.contact-form:before {
+    content: "";
+    position: absolute;
+    width: 26px;
+    height: 26px;
+    background-color: #88BDBC;
+    transform: rotate(45deg);
+    top: 50px;
+    left: -13px;
+}
+
+form {
+    padding: 2.3rem 2.2rem;
+    z-index: 10;
+    overflow: hidden;
+    position: relative;
+}
+
+.title {
+    padding: 12px 0 0 0;
+    color: #fff;
+    text-align: center;
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    margin-bottom: 0.7rem;
+}
+
+.input-container {
+    position: relative;
+    margin: 1rem 4rem;
+}
+
+.input {
+    width: 100%;
+    outline: none;
+    border: 2px solid #fafafa;
+    background: none;
+    padding: 0.4rem 1.2rem;
+    color: #fff;
+    font-weight: 500;
+    font-size: 0.95rem;
+    letter-spacing: 0.5px;
+    transition: 0.3s;
+}
+
+textarea.input {
+    padding: 0.8rem 1.2rem;
+    min-height: 150px;
+    resize: none;
+    overflow-y: auto;
+}
+
+.input-container label {
+    position: absolute;
+    top: 50%;
+    left: 15px;
+    transform: translateY(-50%);
+    padding: 0 0.4rem;
+    color: #fafafa;
+    font-size: 0.9rem;
+    font-weight: 400;
+    pointer-events: none;
+    z-index: 1000;
+    transition: 0.5s;
+}
+
+.input-container.textarea label {
+    top: 1rem;
+    transform: translateY(0);
+}
+
+.btn {
+    padding: 0.6rem 2.3rem;
+    background-color: #fff;
+    border: 2px solid #fafafa;
+    font-size: 0.95rem;
+    color: #88BDBC;
+    line-height: 1;
+    outline: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+    .btn:hover {
+        background-color: transparent;
+        color: #fff;
+    }
+
+.contact-info {
+    padding: 2.3rem 2.2rem;
+    position: relative;
+}
+
+    .contact-info .title {
+        color: #88BDBC;
+    }
+
+.text {
+    color: #333;
+    margin: 1.5rem 0 2rem 0;
+}
+
+.information {
+    display: flex;
+    color: #88BDBC;
+    text-emphasis-style: double-circle;
+    margin: 0.7rem 0;
+    align-items: center;
+    font-size: 0.95rem;
+}
+
+.icon {
+    width: 28px;
+}
+
+.social-media {
+    padding: 2rem 0 0 0;
+}
+
+    .social-media p {
+        color: #88bdBC;
+    }
+
+.social-icons {
+    display: flex;
+    margin-top: 1rem;
+    margin-left: 7.4rem;
+}
+
+    .social-icons a {
+        width: 35px;
+        height: 35px;
+        background: linear-gradient(45deg, #88BDBC, #149279);
+        color: #fff;
+        text-align: center;
+        padding: 2px 0 0 0;
+        line-height: 35px;
+        margin-right: 1rem;
+        transition: 0.3s;
+    }
+
+        .social-icons a:hover {
+            transform: scale(1.05);
+        }
+
+
+
+footer {
+    text-align: center;
+    background-color: #4F4A41;
+    color: #dbd9d5;
+    padding: 50px;
+    font-family: Roboto, sans-serif;
+    text-shadow: initial;
+}
