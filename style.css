@@ -1,10 +1,5 @@
 ﻿@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:ital,wght@0,100;0,400;0,700;0,900;1,100&display=swap');
 
-h1{
-    font-family: Lobster, sans-serif;
-    font-style: normal;
-}
-
 * {
     margin: 0;
     padding: 0;
@@ -69,6 +64,7 @@ body {
 
 .text-col {
     font-size: 40px;
+    font-family: Roboto, sans-serif;
     text-align: center;
     color: #88BDBC ;
 }
